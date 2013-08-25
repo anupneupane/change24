@@ -28,8 +28,13 @@
 
 /*======= SERVICES SECTION =======*/
 .services {
-	color: #474E58;
-    background: #ffffff;	
+	background-color: #F05328;
+	background-image: -moz-radial-gradient(center center, circle cover, blue 0%, #991B04 100%);
+	background-image: -webkit-radial-gradient(center center, circle cover, #fff 0%, cyan 100%);
+	background-image: -o-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+	background-image: -ms-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+	background-image: radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+	color:#4D1201;	
 }
 .rnr-service-box .rnr-service-box-icon i {
 	background: #363f48;
